@@ -1,0 +1,30 @@
+.error-screen-wrap {
+    height: 100%;
+    width: 100%;
+    background-color: #FFDD87;
+    color: #8B572A;
+    text-shadow: 1px 1px 0 0 rgba(255, 255, 255, 0.5);
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+    .error-screen {
+        text-align: center;
+        width:100%;
+
+        h1.error-screen__title {
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 22px;
+        }
+
+        p.error-screen__text {
+            font-size: 16px;
+            line-height: 19px;
+            width: 75%;
+            margin: auto;
+            overflow: auto;
+            word-wrap: break-word;
+        }
+    }
+}

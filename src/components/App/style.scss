@@ -1,0 +1,94 @@
+.express-recorder {
+    position: relative;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    font-family: Helvetica;
+    background-color: black;
+}
+.controls__start {
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    border: none;
+    background-image: linear-gradient(-180deg,#ef424e,#db1f26);
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,.5);
+    cursor: pointer;
+
+    &:hover {
+        background-image: linear-gradient(-180deg,#ed2a38,#c51c22);
+    }
+}
+.express-recorder__controls {
+    position: relative;
+    margin-top: -100px;
+}
+.express-recorder__save {
+    margin-top: 55px;
+}
+
+.express-recorder__countdown {
+    position: relative;
+    margin-top: -363px;
+}
+.controls__cancel {
+    margin-top: 175px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    height: 43px;
+    width: 100px;
+    cursor: pointer;
+}
+.bottom__btn {
+    height: 36px;
+    width: 130px;
+    border-radius: 3px;
+    position: relative;
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+}
+.btn__save {
+    background-color: #008297;
+    border: 1px solid #ccc;
+    color: white;
+    width:auto;
+    height:auto;
+    min-width: 130px;
+    min-height: 36px;
+}
+.btn__clear {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    margin-right: 24px;
+    width:auto;
+    height:auto;
+    min-width: 130px;
+    min-height: 36px;
+}
+.btn__download {
+    min-width: 160px;
+    min-height: 36px;
+    width:auto;
+    height:auto;
+}
+.progress-bar-wrap {
+    margin-top: 130px;
+    width: 858px;
+}
+.settings-wrap {
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-right: 56px;
+    top: 16px;
+    color: #FFFFFF;
+    z-index: 9;
+}

@@ -1,0 +1,46 @@
+.countdown {
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    height: 88px;
+    width: 88px;
+    text-align: center;
+}
+
+.countdown-number {
+    color: white;
+    display: inline-block;
+    line-height: 88px;
+    font-size: 48px;
+    z-index: 2;
+    position: relative;
+}
+
+@keyframes countdown-anim {
+    from {
+        stroke-dashoffset: 0;
+    }
+    to {
+        stroke-dashoffset: 264px;
+    }
+}
+
+.circle {
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    border: 4px solid rgba(0,0,0,0);
+    border-top: 4px solid white;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    margin-top: -86px;
+    margin-left: 2px;
+    background-color: rgba(0,0,0,0.5);
+}
+@keyframes spin {
+    to {
+        border-top-color: white;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
